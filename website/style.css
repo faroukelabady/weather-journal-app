@@ -16,35 +16,19 @@ body{
   font-family: 'Oswald', sans-serif;
 }
 
-.holder{
-  
+#generate {
+  position: relative;
+  bottom: 203px;
 }
 
 .entry{
   background: rgba(59, 74, 107, .4);
 }
 
-#entryHolder{
-
-}
-
-#date{
-
-}
-
-#temp{
-
-}
-
-#content{
-
-}
 
 .headline {
-
-}
-.title{
-
+  text-align: center;
+  font-size: 3em;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
@@ -68,6 +52,7 @@ button{
   width: 400px;
   height: 100px;
   background: #3b4a6b;
+  border-radius: 1em;
   color: #f0d43a;
   font-size: 26px;
   font-family: 'Oswald', sans-serif;
@@ -90,6 +75,11 @@ select:focus,
 textarea:focus,
 button:focus {
   outline: none;
+}
+
+button:hover {
+  background-color: black;
+  transition: ease 0.5s all;
 }
 /* Style for Placeholder Text*/
 ::placeholder { /* Firefox, Chrome, Opera */ 
